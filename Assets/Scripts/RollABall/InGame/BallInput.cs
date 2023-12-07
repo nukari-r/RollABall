@@ -6,11 +6,10 @@ using UnityEngine.InputSystem;
 public class BallInput : MonoBehaviour
 {
     public GameObject Ball;
-    private Rigidbody ballRigidBody;
+    public BallController ballController;
 
     private void Start()
     {
-        ballRigidBody = Ball.GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -19,19 +18,19 @@ public class BallInput : MonoBehaviour
         // WÉLÅ[Ç™âüÇ≥ÇÍë±ÇØÇƒÇ¢ÇÈä‘
         if (Keyboard.current.wKey.isPressed)
         {
-            ballRigidBody.AddForce(Vector3.forward);
+            ballController.BallMove(Vector3.forward);
         }
         if (Keyboard.current.aKey.isPressed)
         {
-            ballRigidBody.AddForce(Vector3.left);
+            ballController.BallMove(Vector3.left);
         }
         if (Keyboard.current.sKey.isPressed)
         {
-            ballRigidBody.AddForce(Vector3.back);
+            ballController.BallMove(Vector3.back);
         }
         if (Keyboard.current.dKey.isPressed)
         {
-            ballRigidBody.AddForce(Vector3.right);
+            ballController.BallMove(Vector3.right);
         }
     }
 }

@@ -6,7 +6,12 @@ using UnityEngine.UI;
 public class InGameTimer : MonoBehaviour
 {
     public Text TimerText;
-    private float timerTime = 30f;
+    private float timerTime = 20f;
+
+    public float GetTimerTime
+    {
+        get { return timerTime; }
+    }
 
     // Update is called once per frame
     void Update()
@@ -14,10 +19,11 @@ public class InGameTimer : MonoBehaviour
         if (timerTime < 0)
         {
             TimerText.text = "0";
+            timerTime = 0;
         }
         else
         {
-            TimerText.text = $"{timerTime -= Time.deltaTime}";
+            TimerText.text = $"{StringUtility.SecondsToTwoDecimalPlaces(timerTime -= Time.deltaTime)}";
         }
     }
 }
