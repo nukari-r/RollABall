@@ -38,32 +38,32 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: FlagDiff
-    second: {fileID: 2800000, guid: 369e2423d79ab714f8e2c5a2f7598a15, type: 3}
+    second: {fileID: 2800000, guid: b2ee1dd7381473248a15eb0322f5be2d, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: FountainDiff
-    second: {fileID: 2800000, guid: bcd27a92472c6524f89e389561fd096d, type: 3}
+    second: {fileID: 2800000, guid: d9542e441cfae1c4abb2d05dd33defdc, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: LampostEdgeingDiff
-    second: {fileID: 2800000, guid: 186d2b5820ab16549b928890f5cc92a2, type: 3}
+    second: {fileID: 2800000, guid: 4e5e53600de86a3418f7200202c8f4cd, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: PathDiff
-    second: {fileID: 2800000, guid: 440c7b4cac30aca4c8a0bf56e29dffe0, type: 3}
+    second: {fileID: 2800000, guid: 5aebce4753580f54b87bd80f8f87af66, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: StatuesDiff
-    second: {fileID: 2800000, guid: 041b38e4d70ff0d48a961604ccbf0a6b, type: 3}
+    second: {fileID: 2800000, guid: 034e0b6210c80dc4582a035501a76610, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Walkway
-    second: {fileID: 2800000, guid: dd44eac5a9a471f4fbcfb2946847acee, type: 3}
+    second: {fileID: 2800000, guid: 3fd93a5285914644b81528f907bdd467, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
