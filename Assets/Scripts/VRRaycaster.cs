@@ -43,6 +43,7 @@ public class VRRaycaster : MonoBehaviour
 		{
 			if (hitGameObject != hitInfo.transform.gameObject)
 			{
+				hitGameObject = hitInfo.transform.gameObject;
 				hitTarget?.Invoke(hitGameObject);
 				// ここ追加してください
 				// 当たったゲームオブジェクトの名前を出します
